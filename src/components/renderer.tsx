@@ -1,5 +1,6 @@
 import {} from 'react'
 import Timer from '../components/Timer'
+import Banner from "../assets/WhatsAppImage2.jpeg"
 
 export default function renderer({
   days, hours, minutes, seconds, completed
@@ -21,8 +22,8 @@ export default function renderer({
     )
   } else {
     return (
-      <div className='flex justify-center items-center flex-col bg-[#1E1E1E] p-16'>
-        <h1 className='text-5xl mb-6 text-white font-bold'>
+      <div className='flex justify-center items-center flex-col bg-[#1E1E1E] p-16' style={{backgroundImage: `url(${Banner})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+        <h1 className='text-5xl mb-6 text-white md:lg:text-[#009045] font-bold'>
           FALTAM
         </h1>
         <div className='flex gap-6 flex-col lg:flex-row'>
