@@ -13,7 +13,7 @@ export default function Footer() {
         <button className='bg-[#009045] hover:bg-opacity-70 text-white p-3 w-[200px] mt-3'>
           Inscreva-se
         </button>
-        <div className='mt-32 flex justify-between flex-col md:lg:flex-row items-center gap-10 lg:md:gap-0'>
+        <div className='mt-12 lg:mt-32 flex justify-between flex-col md:lg:flex-row items-center gap-10 lg:md:gap-0'>
           <img src={FasipeLogo} className='w-[170px]' alt="" />
           <img src={ADSLogo} className='w-[170px]' alt="" />
         </div>
