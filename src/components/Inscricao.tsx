@@ -10,7 +10,7 @@ export default function Inscricao({body, image}: {body: string, bgColor: string,
         <br />
         <span className='text-3xl'>{body}</span>
       </h1>
-      <div className='absolute top-0 left-0 right-0 bottom-0 hover:bg-black/60'></div>
+      <div className='absolute top-0 left-0 right-0 bottom-0 hover:bg-black/60 transition-all duration-200'></div>
     </div>
   )
 }

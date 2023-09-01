@@ -4,7 +4,7 @@ import Inscricao from './components/Inscricao'
 import Footer from './components/Footer'
 import Countdown from 'react-countdown'
 import renderer from './components/renderer'
-import Aluno from "./assets/alunos.png"
+import Aluno from "./assets/AlunosFasipe.png"
 import Comunidade from "./assets/comunidade.png"
 
 function App() {
