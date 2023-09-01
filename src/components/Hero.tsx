@@ -15,11 +15,11 @@ export default function Hero() {
           <h1 className='text-xl md:lg:text-3xl text-[#009045] font-bold'>CONCIPE 2023</h1>
           <img src={FasipeLogo} className='w-[130px]' alt="" />
         </div>
-        <div className='flex flex-1 mt-28 justify-between items-center lg:items-start flex-col lg:flex-row'>
+        <div className='flex flex-1 mt-10 lg:mt-28 justify-between items-center lg:items-start flex-col lg:flex-row'>
           <div className='w-full lg:w-[50%] text-center lg:text-left'>
-            <h3 className='uppercase text-white text-2xl  pl-1'>APRESENTA</h3>
-            <h2 className='text-7xl text-[#009045] font-extrabold'>CAITO MAIA</h2>
-            <p className='text-3xl my-6 text-white pl-1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis nihil deleniti totam tempora sapiente ratione.</p>
+            <h3 className='uppercase text-white text-xl lg:text-2xl  pl-1'>APRESENTA</h3>
+            <h2 className='text-5xl lg:text-7xl text-[#009045] font-extrabold'>CAITO MAIA</h2>
+            <p className='text-xl md:text-3xl lg:text-3xl my-6 text-white pl-1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis nihil deleniti totam tempora sapiente ratione.</p>
             <button className='bg-[#009045] text-white ml-2 p-3 w-[60%] lg:w-[90%] hover:bg-[#077544] transition-all duration-200 ease-in-out'>
               INSCREVA-SE
             </button>
