@@ -1,26 +1,36 @@
 import {} from 'react'
 import Hero from './components/Hero'
-import Inscricao from './components/Inscricao'
-import Footer from './components/Footer'
-import Countdown from 'react-countdown'
-import renderer from './components/renderer'
-import Aluno from "./assets/AlunosFasipe.png"
-import Comunidade from "./assets/comunidade.png"
+import Palestra from './components/Palestra'
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import EventoAnterior from "./assets/evento-anterior.png"
+import Cronograma from './components/Cronograma';
+import Patrocinio from './components/Patrocinio';
+import Localizacao from './components/Localizacao';
+import Footer from "./components/Footer"
 
 function App() {
-
   return (
     <main className='w-full min-h-screen'>
       <Hero />
-      <div className='flex overflow-hidden flex-col md:lg:flex-row'>
-        <Inscricao body='ALUNO' bgColor='#ffb703' image={Aluno} />
-        <Inscricao body='COMUNIDADE' bgColor='#00b4d8' image={Comunidade} />
+      <Palestra />
+      <div className='w-full'>
+        {/* infiniteLoop={true} autoPlay={true} */}
+        <Carousel showThumbs={false} showStatus={false} stopOnHover={true} interval={5000}>
+          <div className='h-[600px] object-cover'>
+            <img src={EventoAnterior} alt="" className='w-full h-full' />
+          </div>
+          <div className='h-[600px] object-cover'>
+            <img src="" alt="" />
+          </div>
+          <div className='h-[600px] object-cover'>
+            <img src="" alt="" />
+          </div>
+        </Carousel>
       </div>
-      <Countdown
-        date={new Date("09-30-2023")}
-        precision={3}
-        renderer={renderer}
-      />
+      <Cronograma />
+      <Patrocinio />
+      <Localizacao />
       <Footer />
     </main>
   )
@@ -28,3 +38,4 @@ function App() {
 
 export default App
 // https://picwish.com/
+// Problema com o componente Palestra

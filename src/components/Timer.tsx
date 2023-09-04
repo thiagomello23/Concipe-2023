@@ -1,10 +1,10 @@
 import {} from 'react'
 
-export default function Timer({date, text}: {date: number, text: string}) {
+export default function Timer({timer, body}: {timer: number, body: string}) {
   return (
-    <div className='bg-white p-6 px-8 rounded-xl text-center text-[#009045] font-bold text-2xl'>
-      <h1>{date < 10 ? "0" + date : date}</h1>
-      <span>{text}</span>
+    <div>
+      <h2>{timer < 10 ? "0": ""}{timer}</h2>
+      <h2>{body}</h2>
     </div>
   )
 }

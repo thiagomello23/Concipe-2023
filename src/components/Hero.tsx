@@ -1,7 +1,9 @@
 import {} from 'react'
-import FasipeLogo from "../assets/fasipe.png"
 import Fundo from "../assets/fundo_desfocado.png"
-import Caito from "../assets/caito_maia.png"
+import ConcipeLogo from "../assets/LOGO-CONCIPE-horizontal_branco-2.png"
+import Button from './Button'
+import Countdown from "react-countdown"
+import renderer from './renderer'
 
 export default function Hero() {
   return (
@@ -9,23 +11,25 @@ export default function Hero() {
       className='w-full min-h-screen bg-black overflow-hidden' 
       style={{backgroundImage: `url(${Fundo})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", filter: "blur(0px)"}}
     >
-      <div className='w-full lg:w-[1000px] xl:w-[1200px] h-full m-auto pt-12'>
-        {/* "Navbar" */}
-        <div className='flex items-center justify-between px-2 lg:px-0'>
-          <h1 className='text-xl md:lg:text-3xl text-[#009045] font-bold'>CONCIPE 2023</h1>
-          <img src={FasipeLogo} className='w-[130px]' alt="" />
+      <div className='bg-primary w-full min-h-[40px] flex items-center justify-between px-2 md:px-5 md:p-2 text-white'>
+        <div className='flex items-center justify-between w-full lg:w-[75%] m-auto text-[10px] md:text-lg'>
+          <h3>15º CONCIPE - de 26 à 29 de setembro</h3>
+          <h3>UNIFASIPE CENTRO EDUCACIONAL</h3>
         </div>
-        <div className='flex flex-1 mt-10 lg:mt-28 justify-between items-center lg:items-start flex-col lg:flex-row'>
-          <div className='w-full lg:w-[50%] text-center lg:text-left'>
-            <h3 className='uppercase text-white text-xl lg:text-2xl  pl-1'>APRESENTA</h3>
-            <h2 className='text-5xl lg:text-7xl text-[#009045] font-extrabold'>CAITO MAIA</h2>
-            <p className='text-xl md:text-3xl lg:text-3xl my-6 text-white pl-1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis nihil deleniti totam tempora sapiente ratione.</p>
-            <button className='bg-[#009045] text-white ml-2 p-3 w-[60%] lg:w-[90%] hover:bg-[#077544] transition-all duration-200 ease-in-out'>
-              INSCREVA-SE
-            </button>
-          </div>
-          <div className='mt-[5%]'>
-            <img src={Caito} className='w-[170px] md:w-[250px] lg:w-[480px]' alt="" />
+      </div>
+      <div className='w-full lg:w-[1000px] m-auto mt-36 p-6'>
+        <img src={ConcipeLogo} alt="" />
+        <div className='w-full mt-8 flex justify-between flex-col gap-4 md:gap-0 md:flex-row'>
+          <div className='w-full md:w-[40%]'><Button text='Inscrição Aluno' color='#8DC641'/></div>
+          <div className='w-full md:w-[40%]'><Button text='Inscrição Comunidade' color='#E03A4E'/></div>
+        </div>
+        <div className='w-full text-center'>
+          <h1 className='text-4xl font-medium text-white mt-14 md:mt-28'>Faltam</h1>
+          <div className='flex justify-center items-center mt-4'>
+            <Countdown
+              date={new Date("09-30-2023")}
+              renderer={renderer}
+            />
           </div>
         </div>
       </div>
