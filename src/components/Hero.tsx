@@ -4,6 +4,7 @@ import ConcipeLogo from "../assets/LOGO-CONCIPE-horizontal_branco-2.png"
 import Button from './Button'
 import Countdown from "react-countdown"
 import renderer from './renderer'
+import LogoFasipe from "../assets/logo-UNIFASIPE_BANNER_BRANCO.png"
 
 export default function Hero() {
   return (
@@ -17,8 +18,13 @@ export default function Hero() {
           <h3>UNIFASIPE CENTRO EDUCACIONAL</h3>
         </div>
       </div>
-      <div className='w-full lg:w-[1000px] xl:w-[1200px] m-auto mt-36 p-6'>
-        <img src={ConcipeLogo} alt="" />
+      <div className='w-full lg:w-[1000px] xl:w-[1200px] m-auto p-6'>
+        <div className='w-full flex justify-center items-center'>
+          <a href="https://grupofasipe.com.br/" target='_blank'>
+            <img src={LogoFasipe} alt="" className='w-[250px] mb-5 mt-4' />
+          </a>
+        </div>
+        <img src={ConcipeLogo} alt="" className='mt-6 md:mt-6 lg:mt-20' />
         <div className='w-full mt-8 flex justify-between flex-col gap-4 md:gap-0 md:flex-row'>
           <div className='w-full md:w-[40%]'>
             <a href="https://www.eventosecursos.grupofasipe.com.br///?a=Sinop" target='_blank'>
