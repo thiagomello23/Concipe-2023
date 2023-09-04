@@ -16,7 +16,7 @@ function App() {
       <Palestra />
       <div className='w-full'>
         {/* infiniteLoop={true} autoPlay={true} */}
-        <Carousel showThumbs={false} showStatus={false} stopOnHover={true} interval={5000}>
+        <Carousel swipeScrollTolerance={50} preventMovementUntilSwipeScrollTolerance={true} emulateTouch={true} showThumbs={false} showStatus={false} stopOnHover={true} interval={5000}>
           <div className='h-[600px] object-cover'>
             <img src={EventoAnterior} alt="" className='w-full h-full' />
           </div>
