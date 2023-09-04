@@ -14,19 +14,21 @@ function App() {
     <main className='w-full min-h-screen'>
       <Hero />
       <Palestra />
-      <div className='w-full'>
+      <div className='w-full bg-gray-light'>
         {/* infiniteLoop={true} autoPlay={true} */}
-        <Carousel swipeScrollTolerance={50} preventMovementUntilSwipeScrollTolerance={true} emulateTouch={true} showThumbs={false} showStatus={false} stopOnHover={true} interval={5000}>
-          <div className='h-[600px] object-cover'>
-            <img src={EventoAnterior} alt="" className='w-full h-full' />
-          </div>
-          <div className='h-[600px] object-cover'>
-            <img src="" alt="" />
-          </div>
-          <div className='h-[600px] object-cover'>
-            <img src="" alt="" />
-          </div>
-        </Carousel>
+        <div className='w-[93%] md:w-[93%] lg:w-[84%] m-auto lg:p-2 xl:p-0'>
+          <Carousel swipeScrollTolerance={50} preventMovementUntilSwipeScrollTolerance={true} emulateTouch={true} showThumbs={false} showStatus={false} stopOnHover={true} interval={5000} infiniteLoop={true} autoPlay={true}>
+            <div className='h-[600px] object-cover'>
+              <img src={EventoAnterior} alt="" className='w-full h-full' />
+            </div>
+            <div className='h-[600px] object-cover'>
+              <img src={EventoAnterior} alt="" className='w-full h-full' />
+            </div>
+            <div className='h-[600px] object-cover'>
+              <img src={EventoAnterior} alt="" className='w-full h-full' />
+            </div>
+          </Carousel>
+        </div>
       </div>
       <Cronograma />
       <Patrocinio />

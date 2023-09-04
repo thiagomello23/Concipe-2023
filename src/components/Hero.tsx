@@ -21,7 +21,7 @@ export default function Hero() {
         <img src={ConcipeLogo} alt="" />
         <div className='w-full mt-8 flex justify-between flex-col gap-4 md:gap-0 md:flex-row'>
           <div className='w-full md:w-[40%]'><Button text='Inscrição Aluno' color='#8DC641'/></div>
-          <div className='w-full md:w-[40%]'><Button text='Inscrição Comunidade' color='#E03A4E'/></div>
+          <div className='w-full md:w-[40%]'><Button text='Inscrição Palestra de Abertura' color='#E03A4E'/></div>
         </div>
         <div className='w-full text-center'>
           <h1 className='text-3xl md:text-4xl font-medium text-white mt-14 md:mt-24'>Faltam</h1>
