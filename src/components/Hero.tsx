@@ -20,8 +20,16 @@ export default function Hero() {
       <div className='w-full lg:w-[1000px] xl:w-[1200px] m-auto mt-36 p-6'>
         <img src={ConcipeLogo} alt="" />
         <div className='w-full mt-8 flex justify-between flex-col gap-4 md:gap-0 md:flex-row'>
-          <div className='w-full md:w-[40%]'><Button text='Inscrição Aluno' color='#8DC641'/></div>
-          <div className='w-full md:w-[40%]'><Button text='Inscrição Palestra de Abertura' color='#E03A4E'/></div>
+          <div className='w-full md:w-[40%]'>
+            <a href="https://www.eventosecursos.grupofasipe.com.br///?a=Sinop" target='_blank'>
+              <Button text='Inscrição Aluno' color='#8DC641'/>
+            </a>
+          </div>
+          <div className='w-full md:w-[40%]'>
+            <a href="#" target='_blank'>
+              <Button text='Inscrição Palestra de Abertura' color='#E03A4E'/>
+            </a>
+          </div>
         </div>
         <div className='w-full text-center'>
           <h1 className='text-3xl md:text-4xl font-medium text-white mt-14 md:mt-24'>Faltam</h1>
