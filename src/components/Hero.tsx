@@ -17,14 +17,14 @@ export default function Hero() {
           <h3>UNIFASIPE CENTRO EDUCACIONAL</h3>
         </div>
       </div>
-      <div className='w-full lg:w-[1000px] m-auto mt-36 p-6'>
+      <div className='w-full lg:w-[1000px] xl:w-[1200px] m-auto mt-36 p-6'>
         <img src={ConcipeLogo} alt="" />
         <div className='w-full mt-8 flex justify-between flex-col gap-4 md:gap-0 md:flex-row'>
           <div className='w-full md:w-[40%]'><Button text='Inscrição Aluno' color='#8DC641'/></div>
           <div className='w-full md:w-[40%]'><Button text='Inscrição Comunidade' color='#E03A4E'/></div>
         </div>
         <div className='w-full text-center'>
-          <h1 className='text-4xl font-medium text-white mt-14 md:mt-28'>Faltam</h1>
+          <h1 className='text-3xl md:text-4xl font-medium text-white mt-14 md:mt-24'>Faltam</h1>
           <div className='flex justify-center items-center mt-4'>
             <Countdown
               date={new Date("09-30-2023")}
