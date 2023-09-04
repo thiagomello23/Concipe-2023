@@ -3,6 +3,7 @@ import Title from './Title'
 import { IoLogoWhatsapp, IoMdMail } from "react-icons/io"
 import FasipeLogo from "../assets/fasipe.png"
 import AdsLogo from "../assets/ads.png"
+import GrupoFasipeLogo from "../assets/CONCIPE2022_log FASIPE.png"
 
 export default function Footer() {
   return (
@@ -25,7 +26,12 @@ export default function Footer() {
         </div>
       </div>
       <div className='flex justify-center items-center flex-col mt-10 gap-8'>
-        <img src={FasipeLogo} alt="" className='w-[120px]' />
+        <div className='flex flex-wrap justify-center gap-8'>
+          <a href="https://grupofasipe.com.br/" target='_blank'>
+            <img src={GrupoFasipeLogo} alt="" className='w-[200px] md:w-[170px]' />
+          </a>
+          <img src={FasipeLogo} alt="" className='w-[120px]' />
+        </div>
         <img src={AdsLogo} alt="" className='w-[120px]' />
       </div>
     </div>
