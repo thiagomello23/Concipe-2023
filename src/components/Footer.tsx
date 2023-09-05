@@ -3,7 +3,7 @@ import Title from './Title'
 import { IoLogoWhatsapp, IoMdMail } from "react-icons/io"
 import FasipeLogo from "../assets/fasipe.png"
 import AdsLogo from "../assets/ads.png"
-import GrupoFasipeLogo from "../assets/CONCIPE2022_log FASIPE.png"
+import GrupoFasipeLogo from "../assets/grupo_fasipe_logo_comprimida.png"
 
 export default function Footer() {
   return (
