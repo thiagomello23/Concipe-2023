@@ -5,7 +5,7 @@ import DentalNorte from "../assets/logo-Dental-norte.png"
 
 export default function Patrocinio() {
   return (
-    <div className='bg-white p-12 flex justify-center items-center flex-col'>
+    <div className='bg-white p-12 py-20 flex justify-center items-center flex-col'>
       <Title text='PATROCINADORES' />
       <div className='flex mt-8 items-center justify-center gap-12'>
         <div className='w-[90px]'>
