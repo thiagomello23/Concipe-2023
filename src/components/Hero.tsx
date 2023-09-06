@@ -41,7 +41,7 @@ export default function Hero() {
           <h1 className='text-3xl md:text-4xl font-medium text-white mt-14 md:mt-24'>Faltam</h1>
           <div className='flex justify-center items-center mt-4'>
             <Countdown
-              date={new Date("2023-09-30")}
+              date={new Date("2023-09-26")}
               renderer={renderer}
             />
           </div>
