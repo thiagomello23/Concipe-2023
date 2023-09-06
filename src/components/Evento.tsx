@@ -19,7 +19,7 @@ export default function Evento(
           <p className='text-4xl'>{data}</p>
         </h1>
         <h1 className='text-xl text-center mt-3 px-2'>
-          <span className='text-2xl'>{data}</span> {body}
+          {body}
         </h1>
       </a>
     )
@@ -36,7 +36,7 @@ export default function Evento(
         <p className='text-4xl'>{data}</p>
       </h1>
       <h1 className='text-xl text-center mt-3 px-2'>
-        <span className='text-2xl'>{data}</span> {body}
+        {body}
       </h1>
     </div>
   )
