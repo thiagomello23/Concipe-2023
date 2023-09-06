@@ -10,7 +10,7 @@ export default function Evento(
     return (
       <a
         style={{backgroundImage: `url(${bgImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}
-        className='p-6 w-full lg:w-[20%] h-[300px] lg:h-[220px] flex justify-center items-center flex-col text-white rounded-md'
+        className='p-6 w-full lg:w-[20%] h-[300px] lg:h-[300px] xl:h-[200px] flex justify-center items-center flex-col text-white rounded-md'
         href={PDF} rel="noopener noreferrer" target="_blank"
       >
         <h1 className='text-2xl text-center'>
@@ -28,7 +28,7 @@ export default function Evento(
   return (
     <div 
       style={{backgroundImage: `url(${bgImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}} 
-      className='p-6 w-full lg:w-[20%] h-[300px] lg:h-[220px] flex justify-center items-center flex-col text-white rounded-md'
+      className='p-6 w-full lg:w-[20%] h-[300px] lg:h-[300px] xl:h-[200px] flex justify-center items-center flex-col text-white rounded-md'
     >
       <h1 className='text-2xl text-center'>
         {title}
