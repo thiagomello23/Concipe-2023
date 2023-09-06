@@ -4,16 +4,16 @@ export default function Evento({bgImage, title, data, body}: {bgImage: string, t
   return (
     <div 
       style={{backgroundImage: `url(${bgImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}} 
-      className='p-6 w-full lg:w-[20%] h-[170px] lg:h-[200px] flex justify-center items-center flex-col text-white rounded-md'
+      className='p-6 w-full lg:w-[20%] h-[170px] lg:h-[220px] flex justify-center items-center flex-col text-white rounded-md'
     >
-      <h1 className='text-3xl text-center'>
+      <h1 className='text-2xl text-center'>
         {title}
         <br />
-        {data}
+        <p className='text-4xl'>{data}</p>
       </h1>
-      <p className='text-center mt-2 px-2'>
-        {body}
-      </p>
+      <h1 className='text-xl text-center mt-3 px-2'>
+        <span className='text-2xl'>{data}</span> {body}
+      </h1>
     </div>
   )
 }
