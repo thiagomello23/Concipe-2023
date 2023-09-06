@@ -62,3 +62,7 @@ function App() {
 export default App
 // https://picwish.com/
 // Problema com o componente Palestra
+
+
+
+

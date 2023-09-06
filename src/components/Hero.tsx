@@ -32,7 +32,7 @@ export default function Hero() {
             </a>
           </div>
           <div className='w-full md:w-[40%]'>
-            <a href="#" target='_blank'>
+            <a href="https://sis.bilheteagora.com.br/lojanew/detalhes_evento.asp?tploja=&eve_cod=1284" target='_blank'>
               <Button text='Inscrição Palestra de Abertura' color='#E03A4E'/>
             </a>
           </div>
