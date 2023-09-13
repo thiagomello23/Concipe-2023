@@ -13,7 +13,7 @@ export default function Patrocinio() {
   return (
     <div className='bg-white p-12 py-16 flex justify-center items-center flex-col'>
       <Title text='PATROCINADORES' />
-      <div className='flex mt-8 items-center justify-center gap-12 flex-col lg:flex-row'>
+      <div className='flex mt-8 items-center justify-center gap-12 flex-col lg:flex-row flex-wrap'>
         <div className='w-[180px]'>
           <img src={SanPetrus} alt="" className='w-full h-full' />
         </div>
