@@ -16,7 +16,7 @@ export default function Patrocinio() {
   return (
     <div className='bg-white p-12 py-16 flex justify-center items-center flex-col'>
       <Title text='PATROCINADORES' />
-      <div className='flex mt-8 items-center justify-center gap-10 flex-col lg:flex-row flex-wrap'>
+      <div className='flex mt-8 items-center justify-center gap-8 flex-col lg:flex-row flex-wrap'>
         <div className='w-[180px]'>
           <img src={SanPetrus} alt="" className='w-full h-full' />
         </div>
@@ -32,20 +32,23 @@ export default function Patrocinio() {
         <div className='w-[160px] mt-3'>
           <img src={Croma} alt="" className='w-full h-full' />
         </div>
-        <div className='w-[160px] mb-3'>
-          <img src={Horus} alt="" className='w-full h-full' />
-        </div>
-        <div className='w-[160px]'>
-          <img src={TopTintas} alt="" className='w-full h-full' />
-        </div>
-        <div className='w-[160px]'>
-          <img src={Cafe} alt="" className='w-full h-full' />
-        </div>
-        <div className='w-[130px] mb-3'>
-          <img src={ChilliBeans} alt="" className='w-full h-full' />
-        </div>
-        <div className='w-[130px] mb-3'>
-          <img src={Ferraz} alt="" className='w-full h-full' />
+        
+        <div className='flex justify-center items-center flex-wrap gap-10 flex-col lg:flex-row'>
+          <div className='w-[160px] mb-3'>
+            <img src={Horus} alt="" className='w-full h-full' />
+          </div>
+          <div className='w-[160px]'>
+            <img src={TopTintas} alt="" className='w-full h-full' />
+          </div>
+          <div className='w-[160px]'>
+            <img src={Cafe} alt="" className='w-full h-full' />
+          </div>
+          <div className='w-[130px] mb-3'>
+            <img src={ChilliBeans} alt="" className='w-full h-full' />
+          </div>
+          <div className='w-[130px] mb-3'>
+            <img src={Ferraz} alt="" className='w-full h-full' />
+          </div>
         </div>
       </div>
     </div>
