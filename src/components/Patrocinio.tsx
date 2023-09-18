@@ -8,7 +8,7 @@ import AlFormatura from "../assets/AL-FORMATURA.png"
 import Croma from "../assets/croma (1).png"
 import Horus from "../assets/HORUS LOGO - FUNDO BRANCO.png"
 import TopTintas from "../assets/logo-fundo-claro.png"
-import Cafe from "../assets/café-sk.png"
+import Cafe from "../assets/cafe-sk.png"
 import ChilliBeans from "../assets/chilli-beans.png"
 import Ferraz from "../assets/ferraz.png"
 
