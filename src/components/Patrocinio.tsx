@@ -11,6 +11,7 @@ import TopTintas from "../assets/logo-fundo-claro.png"
 import Cafe from "../assets/cafe-sk.png"
 import ChilliBeans from "../assets/chilli-beans.png"
 import Ferraz from "../assets/ferraz.png"
+import AmigoLogo from "../assets/amigo-logo.png"
 
 export default function Patrocinio() {
   return (
@@ -49,6 +50,9 @@ export default function Patrocinio() {
           <div className='w-[130px] mb-3'>
             <img src={Ferraz} alt="" className='w-full h-full' />
           </div>
+        </div>
+        <div className='w-[140px] mb-3'>
+          <img src={AmigoLogo} alt="" className='w-full h-full' />
         </div>
       </div>
     </div>
