@@ -1,5 +1,5 @@
 import {} from 'react'
-import PDF from "../assets/MINICURSOS CONCIPE_atualizado dia 05.09.pdf"
+import PDF from "../assets/LISTAS - MINICURSOS - CONCIPE 2023.pdf"
 
 export default function Evento(
   {bgImage, title, data, body, pdf}: 

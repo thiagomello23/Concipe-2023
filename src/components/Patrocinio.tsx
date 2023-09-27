@@ -12,6 +12,7 @@ import Cafe from "../assets/cafe-sk.png"
 import ChilliBeans from "../assets/chilli-beans.png"
 import Ferraz from "../assets/ferraz.png"
 import AmigoLogo from "../assets/amigo-logo.png"
+// import Patrocinadores from "../assets/Patrocinadores.jpg"
 
 export default function Patrocinio() {
   return (
