@@ -39,9 +39,9 @@ function App() {
             emulateTouch={true} 
             showThumbs={false} 
             showStatus={false} 
-            stopOnHover={true} 
-            interval={5000} 
-            infiniteLoop={true} 
+            stopOnHover={true}
+            interval={5000}
+            infiniteLoop={true}
             autoPlay={true}
           >
             {bannerImages.map(ban => (
@@ -52,7 +52,7 @@ function App() {
       </div>
       <Cronograma />
       <Patrocinio />
-      <Localizacao />
+      {/* <Localizacao /> */}
       <Footer />
     </main>
   )
