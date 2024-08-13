@@ -7,12 +7,23 @@ import Cronograma from './components/Cronograma';
 import Patrocinio from './components/Patrocinio';
 import Localizacao from './components/Localizacao';
 import Footer from "./components/Footer"
+import BannerImage1 from "./assets/banner-1.png"
+import BannerImage2 from "./assets/banner-2.png"
+import BannerImage3 from "./assets/banner-3.png"
+import BannerImage4 from "./assets/banner-4.png"
+import BannerImage5 from "./assets/banner-5.png"
+import BannerImage6 from "./assets/banner-6.png"
+import Banner from "./components/Banner"
 
-import Banner1 from "./assets/banner-CONCIPE-SITE-1.png"
-import Banner2 from "./assets/banner-CONCIPE-SITE-2.png"
-import Banner3 from "./assets/banner-CONCIPE-SITE-3.png"
-import Banner4 from "./assets/banner-CONCIPE-SITE-4.png"
-import Banner5 from "./assets/banner-CONCIPE-SITE-5.png"
+export const bannerImages = [
+    BannerImage1,
+    BannerImage2,
+    BannerImage3,
+    BannerImage4,
+    BannerImage5,
+    BannerImage6
+]
+
 
 function App() {
   return (
@@ -21,7 +32,7 @@ function App() {
       <Palestra />
       <div className='w-full bg-gray-light'>
         {/* infiniteLoop={true} autoPlay={true} */}
-        <div className='w-[93%] md:w-[93%] lg:w-[100%] xl:w-[84%] m-auto lg:p-2 xl:p-0'>
+        <div className='w-[93%] md:w-[93%] lg:w-[100%] xl:w-[85%] xl:h-[85%] m-auto lg:p-2 xl:p-0'>
           <Carousel 
             swipeScrollTolerance={50} 
             preventMovementUntilSwipeScrollTolerance={true} 
@@ -33,21 +44,9 @@ function App() {
             infiniteLoop={true} 
             autoPlay={true}
           >
-            <div className='h-[230px] md:h-[400px] xl:h-[670px] lg:h-[560px] object-cover w-full'>
-              <img src={Banner1} alt="" className='w-full h-full' />
-            </div>
-            <div className='h-[230px] md:h-[400px] xl:h-[670px] lg:h-[560px] object-cover w-full'>
-              <img src={Banner2} alt="" className='w-full h-full' />
-            </div>
-            <div className='h-[230px] md:h-[400px] xl:h-[670px] lg:h-[560px] object-cover w-full'>
-              <img src={Banner3} alt="" className='w-full h-full' />
-            </div>
-            <div className='h-[230px] md:h-[400px] xl:h-[670px] lg:h-[560px] object-cover w-full'>
-              <img src={Banner4} alt="" className='w-full h-full' />
-            </div>
-            <div className='h-[230px] md:h-[400px] xl:h-[670px] lg:h-[560px] object-cover w-full'>
-              <img src={Banner5} alt="" className='w-full h-full' />
-            </div>
+            {bannerImages.map(ban => (
+              <Banner banner={ban} key={ban} />
+            ))}
           </Carousel>
         </div>
       </div>

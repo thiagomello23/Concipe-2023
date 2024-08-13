@@ -2,8 +2,6 @@ import {} from 'react'
 import Fundo from "../assets/Fundo-Concipe.png"
 import ConcipeLogo from "../assets/LOGO-CONCIPE-2024_horizontal.png"
 import Button from './Button'
-import Countdown from "react-countdown"
-import renderer from './renderer'
 import LogoFasipe from "../assets/grupo_fasipe_logo_comprimida.png"
 
 export default function Hero() {

@@ -12,7 +12,8 @@ export default {
         'gray-light': '#FAFAFA',
         'gray-bold': '#ECEAEA',
         'orange': '#FCB03C',
-        'black': '#242021'
+        'black': '#242021',
+        'green': '#B6EC37'
       }
     },
   },

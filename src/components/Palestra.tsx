@@ -1,14 +1,18 @@
 import {} from 'react'
 import Title from './Title'
 // import Caito from "../assets/caito-maia.png"
-import Caito from "../assets/CONCIPE_FEED_CAITO_SITE.png"
+import PalestranteBanner from "../assets/palestrante-banner.png"
 
 export default function Palestra() {
   return (
-    <div className='py-12 lg:py-12 lg:px-2 xl:py-14 bg-gray-light'>
-      <Title text='PALESTRA DE ABERTURA - DMD CENTRO DE EVENTOS' />
-      <div className='xl:w-[85%] m-auto mt-10 flex flex-col p-3 lg:flex-row md:p-6 lg:p-0'>
-        <div className='lg:w-[50%]'>
+    <div className='pb-12 lg:pb-12 xl:pb-14 bg-gray-light'>
+      <div className='bg-green min-h-[80px] flex justify-center items-center'>
+        <Title text='Palestra de abertura - DIA 01 de Outubro no DMD Centro de Eventos' />
+      </div>
+      <div className='xl:w-[85%] xl:h-[900px] m-auto mt-10 flex flex-col p-3 lg:flex-row md:p-6 lg:p-0'>
+        <img src={PalestranteBanner} alt="" className='w-full h-full' />
+        {/* Caito */}
+        {/* <div className='lg:w-[50%]'>
           <img src={Caito} alt="" className='w-full h-full' />
         </div>
         <div className='bg-orange p-6 text-white lg:w-[50%]'>
@@ -17,7 +21,7 @@ export default function Palestra() {
             O descontraído proprietário da Chilli Beans, Caito Maia estudou música na Berkeley University of California. Em 1994 retornou ao Brasil e iniciou sua história no segmento de óculos escuros. Atualmente a Chilli Beans tem mais de 200 endereços exclusivos no Brasil, além de pontos em Portugal, Estados Unidos e Panamá. Em 2006 foi homenageado pela JCI - Junior Chamber International - durante o prêmio "The Outstanding Young Person", eleito o maior destaque
             brasileiro na categoria "sucesso Comercial, Econômico e Empresarial".
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   )
