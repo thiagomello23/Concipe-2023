@@ -2,14 +2,9 @@ import {} from 'react'
 import Title from './Title'
 import SanPetrus from "../assets/logo-San-Petrus.png"
 import DentalNorte from "../assets/logo-Dental-norte.png"
-import Stochera from "../assets/stochera-correta.png"
 
-import AlFormatura from "../assets/AL-FORMATURA.png"
-import Croma from "../assets/croma (1).png"
 import Horus from "../assets/HORUS LOGO - FUNDO BRANCO.png"
 import TopTintas from "../assets/logo-fundo-claro.png"
-import Cafe from "../assets/cafe-sk.png"
-import ChilliBeans from "../assets/chilli-beans.png"
 import Ferraz from "../assets/ferraz.png"
 import AmigoLogo from "../assets/amigo-logo.png"
 // import Patrocinadores from "../assets/Patrocinadores.jpg"
