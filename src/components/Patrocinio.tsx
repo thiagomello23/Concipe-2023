@@ -18,7 +18,8 @@ export default function Patrocinio() {
   return (
     <div className='bg-white p-12 py-16 flex justify-center items-center flex-col'>
       <Title text='PATROCINADORES' />
-      <div className='flex mt-8 items-center justify-center gap-8 flex-col lg:flex-row flex-wrap'>
+      <h3 className='text-xl pt-6'>Por enquanto ainda não há nenhum patrocinador confirmado!</h3>
+      {/* <div className='flex mt-8 items-center justify-center gap-8 flex-col lg:flex-row flex-wrap'>
         <div className='w-[180px]'>
           <img src={SanPetrus} alt="" className='w-full h-full' />
         </div>
@@ -55,7 +56,7 @@ export default function Patrocinio() {
         <div className='w-[140px] mb-3'>
           <img src={AmigoLogo} alt="" className='w-full h-full' />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
