@@ -5,7 +5,7 @@ import Tira from './Tira'
 
 export default function Patrocinio() {
   return (
-    <div className='bg-white p-12 py-16 flex justify-center items-center flex-col relative'>
+    <div className='bg-white p-12 py-20 flex justify-center items-center flex-col relative'>
       <Tira />
       <Title text='Patrocinadores' />
       <h3 className='text-xl pt-6'>Por enquanto ainda não há nenhum patrocinador confirmado!</h3>
