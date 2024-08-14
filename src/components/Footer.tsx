@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className='bg-gray-bold p-12'>
       <div className='lg:w-[500px] m-auto flex-col gap-4'>
-        <Title text='ENTRE EM CONTATO CONOSCO' />
+        <Title text='Entre em contato conosco' />
         <div className='w-full md:w-[70%] lg:w-[90%] mx-auto mt-5'>
           <div className='flex justify-between gap-2'>
             <div className='text-4xl'>
