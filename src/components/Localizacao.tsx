@@ -7,7 +7,7 @@ export default function Localizacao() {
     <>
       {/* Fotos da palestra */}
       <div 
-        style={{backgroundImage: `url(${BGImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}
+        // style={{backgroundImage: `url(${BGImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}
         className='text-center mt-[-40px] md:mt-[-40px] lg:mt-[-42px] xl:mt-[-32px] left-1/2 translate-x-[-50%] bg-white absolute p-4 rounded-md cursor-pointer box-shadow'>
         <a className='font-bold text-xs md:text-base lg:text-3xl text-white' href='https://priscilagiroletta.com.br/evento/150/palestra+com+caito+maia+no+15+concipe' target='_blank'>
           VEJA AQUI AS FOTOS DA ABERTURA DO 15° CONCIPE

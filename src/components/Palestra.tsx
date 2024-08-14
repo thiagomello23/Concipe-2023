@@ -2,7 +2,6 @@ import {} from 'react'
 import Title from './Title'
 // import Caito from "../assets/caito-maia.png"
 import PalestranteBanner from "../assets/palestrante-banner.png"
-import Teste from "../assets/pexels-test.jpg"
 
 export default function Palestra() {
   return (

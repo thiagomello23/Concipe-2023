@@ -4,7 +4,7 @@ import Title from './Title'
 
 export default function Patrocinio() {
   return (
-    <div className='bg-white p-12 py-16 flex justify-center items-center flex-col'>
+    <div className='bg-white p-12 py-16 flex justify-center items-center flex-col relative'>
       <Title text='Patrocinadores' />
       <h3 className='text-xl pt-6'>Por enquanto ainda não há nenhum patrocinador confirmado!</h3>
       {/* <div className='flex mt-8 items-center justify-center gap-8 flex-col lg:flex-row flex-wrap'>
