@@ -1,6 +1,5 @@
 import {} from 'react'
 import Title from './Title'
-import BGImage from "../assets/WhatsAppImage2.jpeg"
 
 export default function Localizacao() {
   return (
