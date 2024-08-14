@@ -1,18 +1,11 @@
 import {} from 'react'
 import Title from './Title'
-import SanPetrus from "../assets/logo-San-Petrus.png"
-import DentalNorte from "../assets/logo-Dental-norte.png"
-
-import Horus from "../assets/HORUS LOGO - FUNDO BRANCO.png"
-import TopTintas from "../assets/logo-fundo-claro.png"
-import Ferraz from "../assets/ferraz.png"
-import AmigoLogo from "../assets/amigo-logo.png"
 // import Patrocinadores from "../assets/Patrocinadores.jpg"
 
 export default function Patrocinio() {
   return (
     <div className='bg-white p-12 py-16 flex justify-center items-center flex-col'>
-      <Title text='PATROCINADORES' />
+      <Title text='Patrocinadores' />
       <h3 className='text-xl pt-6'>Por enquanto ainda não há nenhum patrocinador confirmado!</h3>
       {/* <div className='flex mt-8 items-center justify-center gap-8 flex-col lg:flex-row flex-wrap'>
         <div className='w-[180px]'>

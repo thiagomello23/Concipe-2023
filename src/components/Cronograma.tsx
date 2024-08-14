@@ -1,14 +1,12 @@
 import {} from 'react'
 import Title from './Title'
-import Evento from './Evento'
-import BGImage from "../assets/WhatsAppImage2.jpeg"
 import Dia1Evento from "../assets/Dia-1-Evento.png"
 
 export default function Cronograma() {
 
   return (
     <div className='p-12 bg-gray-light'>
-      <Title text='CRONOGRAMA DE EVENTOS' />
+      <Title text='Cronograma de eventos' />
       <div className='flex items-center justify-center flex-wrap gap-10 mt-8'>
         <a
           className='w-[00px] h-[300px] bg-cover'

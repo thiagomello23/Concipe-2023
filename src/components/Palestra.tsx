@@ -2,6 +2,7 @@ import {} from 'react'
 import Title from './Title'
 // import Caito from "../assets/caito-maia.png"
 import PalestranteBanner from "../assets/palestrante-banner.png"
+import Teste from "../assets/pexels-test.jpg"
 
 export default function Palestra() {
   return (
@@ -9,7 +10,7 @@ export default function Palestra() {
       <div className='bg-green min-h-[80px] flex justify-center items-center'>
         <Title text='Palestra de abertura - DIA 01 de Outubro no DMD Centro de Eventos' />
       </div>
-      <div className='xl:w-[85%] xl:h-[900px] m-auto mt-10 flex flex-col p-3 lg:flex-row md:p-6 lg:p-0'>
+      <div className='xl:w-[75%]  m-auto mt-10 flex flex-col p-3 lg:flex-row md:p-6 lg:p-0 border-4'>
         <img src={PalestranteBanner} alt="" className='w-full h-full' />
         {/* Caito */}
         {/* <div className='lg:w-[50%]'>

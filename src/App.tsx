@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Cronograma from './components/Cronograma';
 import Patrocinio from './components/Patrocinio';
-import Localizacao from './components/Localizacao';
+// import Localizacao from './components/Localizacao';
 import Footer from "./components/Footer"
 import BannerImage1 from "./assets/banner-1.png"
 import BannerImage2 from "./assets/banner-2.png"
@@ -24,7 +24,6 @@ export const bannerImages = [
     BannerImage6
 ]
 
-
 function App() {
   return (
     <main className='w-full min-h-screen'>
@@ -32,7 +31,7 @@ function App() {
       <Palestra />
       <div className='w-full bg-gray-light'>
         {/* infiniteLoop={true} autoPlay={true} */}
-        <div className='w-[93%] md:w-[93%] lg:w-[100%] xl:w-[85%] xl:h-[85%] m-auto lg:p-2 xl:p-0'>
+        <div className='w-[93%] md:w-[93%] lg:w-[100%] xl:w-[75%] xl:h-[75%] m-auto lg:p-2 xl:p-0'>
           <Carousel 
             swipeScrollTolerance={50} 
             preventMovementUntilSwipeScrollTolerance={true} 
