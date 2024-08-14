@@ -11,12 +11,12 @@ export default function Hero() {
       style={{backgroundImage: `url(${Fundo})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}
     >
       <div className='bg-primary w-full min-h-[65px] flex items-center justify-between px-2 md:px-5 md:p-2 text-white'>
-        <div className='flex items-center justify-between w-full lg:w-[75%] m-auto text-[10px] md:text-lg'>
+        <div className='flex items-center justify-between w-full lg:w-[75%] m-auto text-[12px] md:text-lg'>
           <h3>16º CONCIPE - Congresso Científico da Fasipe</h3>
           <h3>de 01 à 04 de outubro</h3>
         </div>
       </div>
-      <div className='w-full lg:w-[1000px] xl:w-[1200px] m-auto p-6'>
+      <div className='w-full lg:w-[1000px] xl:w-[1200px] m-auto sm:p-6'>
         {/* Logo Fasipe */}
         <div className='w-full flex'>
           <a href="https://grupofasipe.com.br/" target='_blank'>
@@ -24,21 +24,21 @@ export default function Hero() {
           </a>
         </div>
         {/* Logo Concipe */}
-        <img src={ConcipeLogo} alt="" className='mt-6 md:mt-6 lg:mt-20 lg:w-[85%] mx-auto' />
+        <img src={ConcipeLogo} alt="" className='mt-10 md:mt-6 lg:mt-20 sm:w-full lg:w-[85%] mx-auto' />
         {/* Botões Concipe */}
-        <div className='w-full mt-12 flex justify-between flex-col gap-4 md:gap-0 md:flex-row'>
-          <div className='w-full md:w-[35%] border-b-8 border-secondary'>
+        <div className='w-full mt-10 lg:mt-12 flex justify-center lg:justify-between flex-col gap-16 p-6 md:gap-8 lg:gap-0 lg:flex-row'>
+          <div className='w-full lg:w-[40%] border-b-8 border-secondary'>
             <a href="" target='_blank'>
               <Button title='Inscrições' subtitle='Alunos FASIPE' color='#46654E'/>
             </a>
-            <p className='text-center text-black font-medium text-lg py-4'>
+            <p className='text-center text-black font-medium text-base sm:text-lg lg:text-xl py-4'>
               Participantes que são alunos do Grupo FASIPE devem participar todos os dias do CONCIPE no DMD e unidades UNIFASIPE
             </p>
           </div>
-          <div className='w-full md:w-[35%] border-b-8 border-primary'>
+          <div className='w-full lg:w-[40%] border-b-8 border-primary'>
             <a href="" target='_blank'>
               <Button title='Inscrições' subtitle='Público Externo' color='#5EA752'/>
-              <p className='text-center text-black font-medium text-lg py-4'>
+              <p className='text-center text-black font-medium text-base sm:text-lg lg:text-xl py-4'>
                 Participantes que são alunos do Grupo FASIPE devem participar todos os dias do CONCIPE no DMD e unidades UNIFASIPE
               </p>
             </a>

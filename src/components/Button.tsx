@@ -4,7 +4,7 @@ export default function Button({title, subtitle, color}: {title: string, subtitl
   return (
     <button 
       style={{backgroundColor: color}} 
-      className={`outline-none p-3 rounded-md text-base md:text-xl text-center text-white w-full hover:opacity-80 transition-all duration-200`}
+      className={`outline-none p-3 rounded-md text-base md:text-2xl text-center text-white w-full hover:opacity-80 transition-all duration-200`}
     >
       {title}
       <br />
