@@ -1,8 +1,9 @@
 import {} from 'react'
 import Title from './Title'
-import Dia1Evento from "../assets/Dia-1-Evento.png"
-import Dia2Evento from "../assets/Dia-2&3-Evento.png"
-import Dia4Evento from "../assets/Dia-4-Evento.png"
+import Dia1Evento from "../assets/cronograma_concipe_dia-01.png"
+import Dia2Evento from "../assets/cronograma_concipe-dia-02.png"
+import Dia3Evento from "../assets/cronograma_concipe_dia-03.png"
+import Dia4Evento from "../assets/cronograma_concipe_dia-04.png"
 
 export default function Cronograma() {
 
@@ -11,17 +12,22 @@ export default function Cronograma() {
       <Title text='Cronograma de eventos' />
       <div className='flex items-center justify-center flex-wrap gap-10 mt-8 mb-10'>
         <a
-          className='w-full lg:w-[80%] xl:w-[40%] bg-cover'
+          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
         >
           <img src={Dia1Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-full lg:w-[80%] xl:w-[40%] bg-cover'
+          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
         >
           <img src={Dia2Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-full lg:w-[80%] xl:w-[40%] bg-cover'
+          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
+        >
+          <img src={Dia3Evento} alt="" className='w-full h-full' />
+        </a>
+        <a
+          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
         >
           <img src={Dia4Evento} alt="" className='w-full h-full' />
         </a>
