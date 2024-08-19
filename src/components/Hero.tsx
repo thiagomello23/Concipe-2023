@@ -11,7 +11,7 @@ export default function Hero() {
       style={{backgroundImage: `url(${Fundo})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}
     >
       <div className='bg-primary w-full min-h-[65px] flex items-center justify-between px-2 md:px-5 md:p-2 text-white'>
-        <div className='flex items-center justify-between w-full lg:w-[75%] m-auto text-[12px] md:text-lg'>
+        <div className='flex items-center justify-between w-full lg:w-[75%] m-auto text-[13px] md:text-lg'>
           <h3>16º CONCIPE - Congresso Científico da Fasipe</h3>
           <h3>de 01 à 04 de outubro</h3>
         </div>

@@ -12,22 +12,22 @@ export default function Cronograma() {
       <Title text='Cronograma de eventos' />
       <div className='flex items-center justify-center flex-wrap gap-10 mt-8 mb-10'>
         <a
-          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
         >
           <img src={Dia1Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
         >
           <img src={Dia2Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
         >
           <img src={Dia3Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-full lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
         >
           <img src={Dia4Evento} alt="" className='w-full h-full' />
         </a>
