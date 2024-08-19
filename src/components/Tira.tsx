@@ -19,8 +19,12 @@ export default function Tira() {
             lg:w-[800px]
             '
         >
-        <a className='font-bold text-xs md:text-base lg:text-3xl text-white' href='https://priscilagiroletta.com.br/evento/150/palestra+com+caito+maia+no+15+concipe' target='_blank'>
-        VEJA AQUI AS FOTOS DA ABERTURA DO 15° CONCIPE
+        <a 
+          className='font-bold text-xs md:text-base lg:text-3xl text-black' 
+          href='http://revistas.fasipe.com.br:3000/index.php/CONCIPE' 
+          target='_blank'
+        >
+          Acesse nossa revista científica
         </a>
     </div>
   )
