@@ -5,11 +5,11 @@ import PalestranteBanner from "../assets/site-Concipe_palestrante.png"
 
 export default function Palestra() {
   return (
-    <div className='pb-12 lg:pb-12 xl:pb-14 bg-gray-light'>
+    <div className='pb-6 lg:pb-12 xl:pb-14 bg-gray-light'>
       <div className='bg-green min-h-[60px] sm:min-h-[80px] flex justify-center items-center'>
         <Title text='Palestra de abertura - DIA 01 de Outubro no DMD Centro de Eventos' />
       </div>
-      <div className='xl:w-[75%]  m-auto mt-0 sm:mt-6 lg:mt-10 flex flex-col p-3 lg:flex-row md:p-6 lg:p-0'>
+      <div className='w-full md:w-[75%] xl:w-[75%]  m-auto mt-0 sm:mt-6 lg:mt-10 flex flex-col p-0 lg:flex-row md:p-6 lg:p-0'>
         <img src={PalestranteBanner} alt="" className='w-full h-full' />
         {/* Caito */}
         {/* <div className='lg:w-[50%]'>
