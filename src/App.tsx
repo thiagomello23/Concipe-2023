@@ -31,7 +31,7 @@ function App() {
       <Palestra />
       <div className='w-full bg-gray-light'>
         {/* infiniteLoop={true} autoPlay={true} */}
-        <div className='w-full md:w-[93%] lg:w-[100%] xl:w-[75%] xl:h-[75%] m-auto lg:p-2 xl:p-0'>
+        <div className='w-full md:w-[93%] lg:w-[100%] xl:w-[70%] xl:h-[75%] m-auto lg:p-2 xl:p-0'>
           <Carousel 
             swipeScrollTolerance={50} 
             preventMovementUntilSwipeScrollTolerance={true} 

@@ -10,24 +10,24 @@ export default function Cronograma() {
   return (
     <div className='pt-12 p-0 lg:p-12 bg-gray-light'>
       <Title text='Cronograma de eventos' />
-      <div className='flex items-center justify-center flex-wrap gap-10 mt-8 mb-10'>
+      <div className='flex items-center justify-center flex-wrap gap-10 mt-12 mb-10'>
         <a
-          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[85%] xl:w-[35%] bg-cover'
         >
           <img src={Dia1Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[85%] xl:w-[35%] bg-cover'
         >
           <img src={Dia2Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[85%] xl:w-[35%] bg-cover'
         >
           <img src={Dia3Evento} alt="" className='w-full h-full' />
         </a>
         <a
-          className='w-[85%] lg:w-[80%] xl:w-[38%] bg-cover'
+          className='w-[85%] lg:w-[85%] xl:w-[35%] bg-cover'
         >
           <img src={Dia4Evento} alt="" className='w-full h-full' />
         </a>
