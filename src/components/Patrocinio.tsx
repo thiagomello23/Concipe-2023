@@ -18,14 +18,13 @@ const imagensPatrocinio = [
 export default function Patrocinio() {
   return (
     <div className='bg-white md:p-12 md:py-20 flex justify-center items-center flex-col relative'>
-      {/* <Tira /> */}
+      <Tira />
       <Title text='Patrocinadores' />
       <div className='w-full flex items-center justify-center flex-wrap gap-10 pt-12'>
         {imagensPatrocinio.map(patro => (
           <ImagemBanner image={patro} />
         ))}
       </div>
-      <h3 className='text-base text-center md:text-2xl pt-6 mt-8 mb-6'>Por enquanto ainda não há nenhum patrocinador confirmado!</h3>
       {/* <div className='flex mt-8 items-center justify-center gap-8 flex-col lg:flex-row flex-wrap'>
         <div className='w-[180px]'>
           <img src={SanPetrus} alt="" className='w-full h-full' />

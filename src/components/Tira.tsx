@@ -15,7 +15,7 @@ export default function Tira() {
             box-shadow
             w-[80%] 
             top-[-10%] 
-            lg:top-[-15%] 
+            lg:top-[-6%] 
             lg:w-[800px]
             '
         >
