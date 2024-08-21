@@ -9,7 +9,7 @@ import Patrocinio from './components/Patrocinio';
 import Footer from "./components/Footer"
 import BannerImage1 from "./assets/banner-1.png"
 import BannerImage2 from "./assets/banner-2.png"
-import BannerImage3 from "./assets/banner-3.png"
+import BannerImage3 from "./assets/banner-3-sub.png"
 import BannerImage4 from "./assets/banner-4.png"
 import BannerImage5 from "./assets/banner-5.png"
 import BannerImage6 from "./assets/banner-6.png"
@@ -31,7 +31,7 @@ function App() {
       <Palestra />
       <div className='w-full bg-gray-light'>
         {/* infiniteLoop={true} autoPlay={true} */}
-        <div className='w-full md:w-[93%] lg:w-[100%] xl:w-[70%] xl:h-[75%] m-auto lg:p-2 xl:p-0'>
+        <div className='w-full md:w-[80%] lg:w-[100%] xl:w-[70%] xl:h-[75%] m-auto lg:p-2 xl:p-0'>
           <Carousel 
             swipeScrollTolerance={50} 
             preventMovementUntilSwipeScrollTolerance={true} 
