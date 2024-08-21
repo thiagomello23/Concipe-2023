@@ -1,5 +1,5 @@
 import {} from 'react'
-import Fundo from "../assets/Fundo-Concipe.png"
+import Fundo from "../assets/fundo_desfocado-c675cb8d.png"
 import ConcipeLogo from "../assets/LOGO-CONCIPE-2024_horizontal.png"
 import Button from './Button'
 import LogoFasipe from "../assets/grupo_fasipe_logo_comprimida.png"
@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div 
       className='w-full min-h-screen bg-white overflow-hidden'
-      style={{backgroundImage: `url(${Fundo})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}
+      style={{backgroundImage: `url(${Fundo})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", filter: "blur(0px)"}}
     >
       <div className='bg-primary w-full min-h-[65px] flex items-center justify-between px-2 md:px-5 md:p-2 text-white'>
         <div className='flex items-center justify-between w-full lg:w-[75%] m-auto text-[13px] md:text-lg'>
@@ -31,14 +31,14 @@ export default function Hero() {
             <a href="" target='_blank'>
               <Button title='Inscrições' subtitle='Alunos FASIPE' color='#46654E'/>
             </a>
-            <p className='text-center text-black font-medium text-base sm:text-lg lg:text-xl py-4'>
+            <p className='text-center text-white font-medium text-base sm:text-lg lg:text-xl py-4'>
               Participantes que são alunos do Grupo FASIPE devem participar todos os dias do CONCIPE no DMD e unidades UNIFASIPE
             </p>
           </div>
           <div className='w-full lg:w-[40%] border-b-8 border-primary'>
             <a href="" target='_blank'>
               <Button title='Inscrições' subtitle='Público Externo' color='#5EA752'/>
-              <p className='text-center text-black font-medium text-base sm:text-lg lg:text-xl py-4'>
+              <p className='text-center text-white font-medium text-base sm:text-lg lg:text-xl py-4'>
                 Participantes que são alunos do Grupo FASIPE devem participar todos os dias do CONCIPE no DMD e unidades UNIFASIPE
               </p>
             </a>
