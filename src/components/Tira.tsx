@@ -14,8 +14,10 @@ export default function Tira() {
             cursor-pointer 
             box-shadow
             w-[80%] 
-            top-[-10%] 
-            lg:top-[-6%] 
+            top-[-2%] 
+            md:top-[-0%]
+            lg:top-[-1%] 
+            xl:top-[-6%]
             lg:w-[800px]
             '
         >

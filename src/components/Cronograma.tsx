@@ -18,9 +18,9 @@ export default function Cronograma() {
   return (
     <div className='pt-12 p-0 lg:p-12 bg-gray-light'>
       <Title text='Cronograma de eventos' />
-      <div className='flex items-center justify-center flex-wrap gap-10 mt-12 mb-10'>
+      <div className='flex items-center justify-center flex-wrap gap-10 mt-12 mb-12'>
         {imagensDiasEventos.map(ev => (
-          <ImagemBanner image={ev} link />
+          <ImagemBanner image={ev} link key={ev} />
         ))}
         {/* <Evento bgImage={BGImage} title='Palestra' data='26/09' body={"18h - Palestra de abertura – DMD centro de eventos"} />
         <Evento bgImage={BGImage} title='Minicurso' data='27/09' body='19h - Minicursos – simultâneo nas duas unidades Unifasipe' pdf />
