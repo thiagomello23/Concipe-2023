@@ -1,9 +1,9 @@
 import {} from 'react'
 import Title from './Title'
-import Dia1Evento from "../assets/cronograma_concipe_dia-01.png"
-import Dia2Evento from "../assets/cronograma_concipe-dia-02.png"
-import Dia3Evento from "../assets/cronograma_concipe_dia-03.png"
-import Dia4Evento from "../assets/cronograma_concipe_dia-04 (1).png"
+import Dia1Evento from "../assets/cronograma_concipe_dia-01.webp"
+import Dia2Evento from "../assets/cronograma_concipe-dia-02.webp"
+import Dia3Evento from "../assets/cronograma_concipe_dia-03.webp"
+import Dia4Evento from "../assets/cronograma_concipe_dia-04 (1).webp"
 import ImagemBanner from './ImagemBanner'
 
 const imagensDiasEventos = [
