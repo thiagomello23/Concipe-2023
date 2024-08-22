@@ -28,7 +28,7 @@ export default function Hero() {
         {/* Botões Concipe */}
         <div className='w-full mt-10 lg:mt-12 flex justify-center lg:justify-between flex-col gap-16 p-6 md:gap-8 lg:gap-0 lg:flex-row'>
           <div className='w-full lg:w-[40%] border-b-8 border-secondary'>
-            <a href="" target='_blank'>
+            <a href="https://www.eventosecursos.grupofasipe.com.br/" target='_blank'>
               <Button title='Inscrições' subtitle='Alunos FASIPE' color='#46654E'/>
             </a>
             <p className='text-center text-white font-medium text-base sm:text-lg lg:text-xl py-4'>
@@ -36,7 +36,7 @@ export default function Hero() {
             </p>
           </div>
           <div className='w-full lg:w-[40%] border-b-8 border-primary'>
-            <a href="" target='_blank'>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScvugvVe6xHLAJFLKqeHVG0jOpyLv5K88j90Q4ursLQvuuqIg/viewform" target='_blank'>
               <Button title='Inscrições' subtitle='Público Externo' color='#5EA752'/>
               <p className='text-center text-white font-medium text-base sm:text-lg lg:text-xl py-4'>
                 Participantes que são alunos do Grupo FASIPE devem participar todos os dias do CONCIPE no DMD e unidades UNIFASIPE
