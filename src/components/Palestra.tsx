@@ -1,7 +1,7 @@
 import {} from 'react'
 import Title from './Title'
 // import Caito from "../assets/caito-maia.png"
-import PalestranteBanner from "../assets/site-Concipe_palestrante.png"
+import PalestranteBanner from "../assets/site-Concipe_palestrante.webp"
 
 export default function Palestra() {
   return (
