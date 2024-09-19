@@ -39,7 +39,7 @@ export default function Hero() {
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScvugvVe6xHLAJFLKqeHVG0jOpyLv5K88j90Q4ursLQvuuqIg/viewform" target='_blank'>
               <Button title='Inscrições' subtitle='Público Externo' color='#5EA752'/>
               <p className='text-center text-white font-medium text-base sm:text-lg lg:text-xl py-4'>
-                Participantes que são alunos do Grupo FASIPE devem participar todos os dias do CONCIPE no DMD e unidades UNIFASIPE
+                Participantes que não são alunos do Grupo FASIPE podem participar da palestra de abertura no DMD Centro de Eventos
               </p>
             </a>
           </div>
