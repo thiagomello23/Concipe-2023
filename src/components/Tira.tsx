@@ -14,16 +14,16 @@ export default function Tira() {
             cursor-pointer 
             box-shadow
             w-[80%] 
-            top-[-0.7%] 
-            md:top-[-0%]
-            lg:top-[-1%] 
-            xl:top-[-4%]
+            top-[-34px] 
+            md:top-[-34px]
+            lg:top-[-34px] 
+            xl:top-[-34px]
             lg:w-[800px]
             '
         >
         <a 
           className='font-bold text-xs md:text-base lg:text-3xl text-black' 
-          href='http://revistas.fasipe.com.br:3000/index.php/CONCIPE' 
+          href='https://revistas.fasipe.com.br/index.php/CONCIPE' 
           target='_blank'
         >
           Acesse nossa revista científica
